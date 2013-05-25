@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title><%- title %></title>
+        <meta charset="utf-8">
+
+        <!-- Viewport mobile tag for sensible mobile support -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta http-equiv="x-ua-compatible" content="IE=Edge">
+        <meta name="apple-mobile-web-app-capable" content="yes"> 
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+        <!-- JavaScript and stylesheets from your public folder are included here -->
+        <%- assets.css() %>
+        <%- assets.js() %>
+
+        <% locals.javascript = locals.javascript || '' %>
+        <%- javascript %>
+    </head>
+    <body>
+	<%- body %>
+    </body>
+</html>
