@@ -8,6 +8,16 @@ The RPG has the same movement style has the Pokemon games. Art style follows the
 
 The game is accessible to people. We assure this by using a HTML5 and Canvases for the frontend, this is to assure cross platform compatibility. We use Node.js in the backend to continue using the same language that we have in the front as well as being able to assure easy modding of the game.
 
+## Features
+* Multiple modes of transportation
+* Skill System Simillar to RuneScape
+* Overworld compared to Pokemon 
+* Procedurally generated content (World, NPC, Items, Quests)
+* Essence System
+* Two types of magic (Essence focus and mana pool)
+* Memory system
+* Socketed Inventory System
+* 
 
 
 ## Licenses
